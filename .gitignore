@@ -34,3 +34,42 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Directory-based project format
+.idea/
+
+# Ignore all .iml files
+*.iml
+
+# Ignore workspace files
+*.iws
+
+# Ignore logs
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Ignore code style and inspection settings
+.idea/**/codeStyles
+.idea/**/inspectionProfiles
+
+# Ignore JetBrains-specific system files
+.idea/**/dataSources
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/typeMappings.xml
+
+# Ignore gradle (if using gradle)
+.gradle/
+build/
+
+# Ignore npm (if using Node.js project)
+node_modules/
+
+# Ignore logs and temp files
+*.log
+/tmp
